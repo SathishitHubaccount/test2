@@ -1,4 +1,5 @@
 def prime(n):
+    from collections import defaultdict
     """Return a list of prime numbers up to n."""
     primes = defaultdict(int)
     for num in range(2, n + 1):
